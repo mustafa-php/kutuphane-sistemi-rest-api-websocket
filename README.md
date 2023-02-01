@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Kütüphane Sistemi || PHP REST API & WEBSOCKET</h1>
+<h2>Kütüphane Sistemi || PHP REST API & WEBSOCKET</h2>
 <img src="https://img.shields.io/github/license/mustafa-php/kutuphane-sistemi-rest-api-websocket?color=blue&label=Lisans&logo=github">
 <img src="https://img.shields.io/badge/version-v1-blue?style=plastic">
 <img src="https://img.shields.io/badge/php-v^8.0-blue?style=plastic&logo=php">
