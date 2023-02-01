@@ -39,10 +39,10 @@ klasöründen **server** ve **client** klasörlerini çıkartalım
 
 <br>
 
-## SERVER klasörü ne işe yarar ?
+### SERVER klasörü ne işe yarar ?
 
 Rest API yardımı ile verileri alacağımız dosyaları içerir.
 
-## Client klasörü ne işe yara ?
+### Client klasörü ne işe yara ?
 
 Yönetici ve üye paneli, websocket kütüphanesi ve api isteklerini ileten dosyaları içerir
