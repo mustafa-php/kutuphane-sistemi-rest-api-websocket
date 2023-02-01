@@ -1,8 +1,8 @@
 <?php
 
-require_once "include/bas.php";
+require_once "../include/bas.php";
 
-?>
+?> 
 <div class="container mt-5">
     <div class="row">
         <div class="col-4">

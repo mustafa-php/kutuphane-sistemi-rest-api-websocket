@@ -9,7 +9,7 @@ class İstek
         curl_setopt($curl_basla, CURLOPT_CUSTOMREQUEST, $veriler["method"]);
         curl_setopt($curl_basla, CURLOPT_POSTFIELDS, json_encode($veriler["veri"]));
         curl_setopt_array($curl_basla, [
-            CURLOPT_URL => "https://mustafa/projeler/php/api/k%C3%BCt%C3%BCphane/v1/api/api.php",
+            CURLOPT_URL => "https://hostname.com/server/api/api.php",
             CURLOPT_RETURNTRANSFER => 1,
             CURLOPT_SSL_VERIFYPEER => 0,
             CURLOPT_SSL_VERIFYHOST => 0,

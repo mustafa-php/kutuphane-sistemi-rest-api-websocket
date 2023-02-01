@@ -6,7 +6,7 @@ class veritabani
 
     public function __construct()
     {
-        $this->veritabani = new PDO("mysql:host=mustafa;dbname=kutuphane", "mustafa", "");
+        $this->veritabani = new PDO("mysql:host=host;dbname=veritabani", "kullanici", "sifre");
     }
 
     public function get($dbislem)

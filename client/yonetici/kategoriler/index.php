@@ -1,6 +1,6 @@
 <?php
 
-require_once "..(../include/bas.php";
+require_once "../../include/bas.php";
 require_once "../../client/kategori_islemler.php";
 $kategori_islem = new kategori_islem();
 

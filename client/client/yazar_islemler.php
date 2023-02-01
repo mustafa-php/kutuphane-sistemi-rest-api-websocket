@@ -6,7 +6,7 @@ class yazar_islem
     private $istek;
     public function __construct()
     {
-        require_once "../client/istek.php";
+        require_once "../../client/istek.php";
         $istek = new İstek();
 
         $this->istek = $istek;
