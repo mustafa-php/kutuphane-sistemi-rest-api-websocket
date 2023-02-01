@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "v1\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^3.2",
+        "cboden/ratchet": "^0.4.4"
+    }
+}

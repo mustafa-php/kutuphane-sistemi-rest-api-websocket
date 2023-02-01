@@ -1,0 +1,86 @@
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+    opacity: .8;
+}
+
+img {
+    object-fit: cover;
+}
+
+.menu-baglanti {
+    background: #BD4706;
+}
+
+.menu-baglanti>span>img {
+    height: 5rem;
+}
+
+header {
+    background: #A13905;
+}
+
+.alt-bs {
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: white;
+}
+
+.alt-bs::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 10%;
+    height: 5px;
+    width: 110%;
+    border-radius: 1rem;
+    background: #F78839;
+}
+
+.card img {
+    height: 20rem;
+    width: 100%;
+    padding: .5rem;
+}
+
+.card .card-body {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.tek_list_kitap {
+    background: #A13905;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.flex-column>*:nth-child(2n) {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.masa {
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.masa.disabled {
+    cursor: no-drop;
+    opacity: .8;
+}
+
+.dolu {
+    background: red;
+}
+
+.bos {
+    background: green;
+}
