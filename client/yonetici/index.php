@@ -11,25 +11,25 @@ require_once "../include/bas.php";
             </div>
             <div class="flex-column">
                 <div class="col-12 p-1">
-                    <a href="kitaplar/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/kitaplar/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/kitaplar.png" alt=""></span>
                         <span class="fs-3 col-8">Kitaplar</span>
                     </a>
                 </div>
                 <div class="col-12 p-1">
-                    <a href="uyeler/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/uyeler/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/uyeler.png" alt=""></span>
                         <span class="fs-3 col-8">Üyeler</span>
                     </a>
                 </div>
                 <div class="col-12 p-1">
-                    <a href="kategoriler/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/kategoriler/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/kategoriler.png" alt=""></span>
                         <span class="fs-3 col-8">Kategoriler</span>
                     </a>
                 </div>
                 <div class="col-12 p-1">
-                    <a href="yazarlar/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/yazarlar/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/yazarlar.png" alt=""></span>
                         <span class="fs-3 col-8">Yazarlar</span>
                     </a>
@@ -43,19 +43,19 @@ require_once "../include/bas.php";
             </div>
             <div class="flex-column">
                 <div class="col-12 p-1">
-                    <a href="kitaplar/?islem=ekle" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/kitaplar/?islem=ekle" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/kitap_ekle.png" alt=""></span>
                         <span class="fs-3 col-8">Kitap Ekle</span>
                     </a>
                 </div>
                 <div class="col-12 p-1">
-                    <a href="kategoriler/?islem=ekle" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/kategoriler/?islem=ekle" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/kategori_ekle.png" alt=""></span>
                         <span class="fs-3 col-8">Kategori Ekle</span>
                     </a>
                 </div>
                 <div class="col-12 p-1">
-                    <a href="yazarlar/?islem=ekle" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/yazarlar/?islem=ekle" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/yazar_ekle.png" alt=""></span>
                         <span class="fs-3 col-8">Yazar Ekle</span>
                     </a>
@@ -69,7 +69,7 @@ require_once "../include/bas.php";
             </div>
             <div class="flex-column">
                 <div class="col-12 p-1">
-                    <a href="masa_doluluk/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
+                    <a href="yonetici/masa_doluluk/" class="menu-baglanti row align-items-center justify-content-center py-2 px-3 w-100">
                         <span class="col-4 text-center"><img src="resim/kitaplar.png" alt=""></span>
                         <span class="fs-3 col-8">Masa Doluluk</span>
                     </a>

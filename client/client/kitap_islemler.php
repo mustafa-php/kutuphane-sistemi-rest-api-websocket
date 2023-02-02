@@ -57,6 +57,9 @@ class kitap_islem
         ];
 
         $liste = $this->liste($veri);
+        if (empty($liste->icerik) || $liste->icerik == "Boş") {
+            die();
+        }
         foreach ($liste->icerik as $deger) {
 ?>
             <div class="col-6 p-3">
@@ -80,10 +83,10 @@ class kitap_islem
                             <div class="p-2 border-top border-1 border-secondary">
                                 <div class="row">
                                     <div class="col d-grid">
-                                        <a href="kitaplar/?islem=guncelleme&id=<?php echo $deger->id; ?>" class="btn btn-primary">Güncelle</a>
+                                        <a href="yonetici/kitaplar/?islem=guncelleme&id=<?php echo $deger->id; ?>" class="btn btn-primary">Güncelle</a>
                                     </div>
                                     <div class="col d-grid">
-                                        <a href="kitaplar/?islem=sil&id=<?php echo $deger->id; ?>" class="btn btn-danger">Sil</a>
+                                        <a href="yonetici/kitaplar/?islem=sil&id=<?php echo $deger->id; ?>" class="btn btn-danger">Sil</a>
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +165,7 @@ class kitap_islem
                             <label for="" class="form-label">Kategori</label>
                         </div>
                         <div class="col-12 d-grid">
-                            <button class="btn btn-success">Güncelle</button>
+                            <button class="btn btn-success">Ekle</button>
                         </div>
                     </form>
                 </div>

@@ -18,9 +18,21 @@ session_start();
 </head>
 
 <body>
-
-    <header>
-        <div class="fs-1 fw-bold text-center p-3 text-white">
+    <style>
+        header a {
+            font-size: 1.2rem;
+            padding: .5rem 1.5rem;
+            margin: 1rem .5rem;
+            display: inline-block;
+            background: #422A23;
+            width: min-content;
+        }
+    </style>
+    <header class="container-fluid">
+        <div class="fs-1 fw-bold text-center p-3 pb-2 text-white col-12">
             Mustafa Şimşek Kütüphane API & WebSocket
+        </div>
+        <div class="row justify-content-center">
+            <a href="yonetici/" class="col-auto">Anasayfa</a>
         </div>
     </header>

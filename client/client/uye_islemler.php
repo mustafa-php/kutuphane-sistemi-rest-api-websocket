@@ -131,7 +131,7 @@ class uye_islem
         }
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $isim = $_POST["isim"];
+            $isim = $_POST["isimsoyisim"];
             $eposta = $_POST["eposta"];
             $tel = $_POST["tel"];
             $sehir = $_POST["sehir"];
