@@ -163,7 +163,7 @@ Terminalden yukarıda (&uarr;) bulunan isteği gerçekleştirdiğinizde websocke
    
 ```
 
-Web socket dinlemesini de tamamdık artık uygulamamızı kullanıp php bilgisi edinebilirsiniz.
+Web socket dinlemesini de tamamladık artık uygulamamızı kullanıp php bilgisi edinebilirsiniz.
 
 # Kolay gelsin sağlıcakla kalınız -Mustafa Şimşek🌹
 
