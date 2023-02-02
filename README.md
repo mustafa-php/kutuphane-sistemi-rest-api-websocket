@@ -46,3 +46,5 @@ Rest API yardımı ile verileri alacağımız dosyaları içerir.
 ### Client klasörü ne işe yara ?
 
 Yönetici ve üye paneli, websocket kütüphanesi ve api isteklerini ileten dosyaları içerir
+
+# Beni Oku yazısı DEVAM EDECEK
