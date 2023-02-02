@@ -103,7 +103,7 @@ Dosya : client/client/istek.php
         }
     },
     "kod": 200,
-    "mesaj": Başarılı
+    "mesaj": "Başarılı"
 }
 ```
 \
