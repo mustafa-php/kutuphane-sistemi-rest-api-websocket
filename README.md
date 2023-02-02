@@ -101,7 +101,9 @@ Dosya : client/client/istek.php
             "yazar": "Reşat Nuri Güntekin",
             "kategori": "Romantik"
         }
-    }
+    },
+    kod: 200,
+    mesaj: Başarılı
 }
 ```
 \
