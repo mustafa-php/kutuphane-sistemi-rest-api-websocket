@@ -102,8 +102,8 @@ Dosya : client/client/istek.php
             "kategori": "Romantik"
         }
     },
-    kod: 200,
-    mesaj: Başarılı
+    "kod": 200,
+    "mesaj": Başarılı
 }
 ```
 \
