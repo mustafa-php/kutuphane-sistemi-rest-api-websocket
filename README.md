@@ -24,7 +24,7 @@
 # Nedir ?
 
 **Mustafa Şimşek** tarafından versionlar halinde yayınlanacak olan Kütüphane Sistemi Rest API sayesinde (Listeleme-Ekleme-Güncelleme-Silme) isteklerini gönderir
-ve gönderilen isteklere tepki vererek istenilen komutların çalışmasına olanak sağlar. PHP'nin Socket Kütüphanesi ``Ratchet Websocket`` aracılığı ile gerçel zamanlı olarak masa doluluk oranlarına erişim sağlayıp masa giriş-çıkış işlemini görüntülemekte yardımcı olur.
+ve gönderilen isteklere tepki vererek istenilen komutların çalışmasına olanak sağlar. PHP'nin Socket Kütüphanesi ``Ratchet Websocket`` aracılığı ile gerçek zamanlı olarak masa doluluk oranlarına erişim sağlayıp masa giriş-çıkış işlemini görüntülemekte yardımcı olur.
 \
 &nbsp;
 # Kullanım Bilgileri !
