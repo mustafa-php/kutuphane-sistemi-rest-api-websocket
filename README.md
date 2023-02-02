@@ -135,7 +135,9 @@ Port numarası depo klonlanması ile otomatik ``:8080`` olarak gelecektir.
 
     php client\bin\server.php
 
-Terminalden yukarıda bulunan isteği gerçekleştirdiğinizde websocket dinlenmeye hazır olucak.
+Terminalden yukarıda (&uarr;) bulunan isteği gerçekleştirdiğinizde websocket dinlenmeye hazır olucak.
+\
+&nbsp;
 ### Pekiii, sıra geldi web socket isteklerini dinlemeye ....
 
 ```js
@@ -158,7 +160,7 @@ Terminalden yukarıda bulunan isteği gerçekleştirdiğinizde websocket dinlenm
 
 Web socket dinlemesini de tamamdık artık uygulamamızı kullanıp php bilgisi edinebilirsiniz.
 
-#Kolay gelsin sağlıcakla kalınız -Mustafa Şimşek🌹
+# Kolay gelsin sağlıcakla kalınız -Mustafa Şimşek🌹
 
 
 
