@@ -52,7 +52,7 @@ Yönetici ve üye paneli, websocket kütüphanesi ve api isteklerini ileten dosy
 &nbsp;
 ## Örnek API isteği &rarr; Veri Çekme İsteği &darr; 
 ```php
-file : istek.php
+Dosya : client/client/istek.php
 
  public function curl($veriler)
     {
@@ -101,13 +101,64 @@ file : istek.php
     }
 }
 ```
+\
+&nbsp;
+# Ratchet Websocket
 
+Ratchet Websocket kütüphanesi depo içerisinde yerleşik pozisyondadır.
 
+#### Websocket oluşturmak için ``client\bin\server.php`` dosyasının içerisinde port numarası belirlememiz lazım.
 
+## Örnek server.php içeriği &darr; 
+```php
+Dosya : client/bin/server.php
 
+use Ratchet\Server\IoServer;
+use Ratchet\Http\HttpServer;
+use Ratchet\WebSocket\WsServer;
+use v1\masa;
 
+    require dirname(__DIR__) . '/vendor/autoload.php';
 
+    $server = IoServer::factory(
+        new HttpServer(
+            new WsServer(
+                new masa()
+            )
+        ),
+      |--> 8080 <--|
+    );
 
+    $server->run();
+```
+Port numarası depo klonlanması ile otomatik ``:8080`` olarak gelecektir.
+
+    php client\bin\server.php
+
+Terminalden yukarıda bulunan isteği gerçekleştirdiğinizde websocket dinlenmeye hazır olucak.
+### Pekiii, sıra geldi web socket isteklerini dinlemeye ....
+
+```js
+  var conn = new WebSocket('ws://localhost:8080');
+  
+  conn.onopen = function(e){
+    conn.send("Websocket girişi yapıldı...");
+  }
+  
+  conn.onclose = function(e){
+    conn.send("Websocket çıkış yapıldı...");
+  }
+  
+  conn.onmessage = function(e) {
+    var veri = e.data;
+    console.log(veri);
+  }
+   
+```
+
+Web socket dinlemesini de tamamdık artık uygulamamızı kullanıp php bilgisi edinebilirsiniz.
+
+#Kolay gelsin sağlıcakla kalınız -Mustafa Şimşek🌹
 
 
 
