@@ -91,7 +91,7 @@ Dosya : client/client/istek.php
     "icerik": {
         "0": {
             "id": "1",
-            "baslik": "Kaval Yelleri",
+            "baslik": "Kavak Yelleri",
             "yazar": "Reşat Nuri Güntekin",
             "kategori": "Dram"
         },
